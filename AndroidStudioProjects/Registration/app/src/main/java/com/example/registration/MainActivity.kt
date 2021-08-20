@@ -1,5 +1,4 @@
 package com.example.registration
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,7 +11,6 @@ import com.example.registration.API.APIClient
 import com.example.registration.API.APIInterface
 import com.example.registration.models.RegistrationRequest
 import com.example.registration.models.RegistrationResponse
-
 class MainActivity : AppCompatActivity() {
      lateinit var binding:ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
